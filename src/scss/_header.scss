@@ -1,0 +1,31 @@
+.header{
+   position: fixed;
+   overflow: hidden;
+   width:90%;
+   height: 80px;
+   top: 10px;
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+
+   .logo{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 38px;
+      color: #FFFFFF;
+   }
+   .menu{
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content:space-between ;
+      >a{
+         font-weight: 500 !important;
+         font-size: 20px !important;
+         line-height: 30px !important;
+         color: #FFFFFF !important;
+         padding:10px;
+      }
+   }
+}

@@ -1,0 +1,20 @@
+.btn-selectWallet{
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 10px 20px;
+   gap: 10px;
+   border-radius: 10px;
+   flex: none;
+   order: 3;
+   flex-grow: 0;
+   >button{
+      color: #FFFFFF;
+      background:none;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      border: none;
+   }
+}
